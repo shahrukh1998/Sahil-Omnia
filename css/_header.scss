@@ -1,0 +1,36 @@
+.header{
+    h1{
+        font-size: 54px !important;
+         color: black;
+         @include fontWeight(900);
+         -webkit-text-stroke: 1px var(--font-color);
+         -webkit-text-fill-color: var(--light);
+
+         @media (max-width: 768px) {
+            font-size: 30px !important;
+         } 
+        
+    }
+
+    .banner-right-bg {
+        background:url(../images/mountain.jpeg);
+        min-height: 340px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size:cover;
+    }
+
+    
+    
+   
+}
+
+.header {
+    h5 {
+        font-family: var(--kaushanFont)!important;
+        color:var(--body-color);
+    }
+}
+// @supports (-webkit-text-stroke: 1px black) {
+
+//   }

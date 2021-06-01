@@ -1,0 +1,7 @@
+@mixin  radius($radius) {
+    border-radius: $radius ;
+}
+
+@mixin fontWeight($weight) {
+    font-weight: $weight;
+}
